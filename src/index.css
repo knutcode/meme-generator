@@ -56,6 +56,7 @@ main {
   margin: 36px;
   flex-wrap: wrap;
   gap: 15px;
+  justify-content: center;
 }
 
 input {
@@ -77,6 +78,10 @@ button {
   padding: 11px;
   font-family: inherit;
   border-radius: 5px;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* 3. media queries */
