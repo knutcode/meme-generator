@@ -35,12 +35,18 @@ header > h1 {
 
 /* 1. header */
 
-header {
+.header-container {
   height: 65px;
   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   padding: 0 36px;
+}
+
+header {
   align-items: center;
   justify-content: space-between;
+  height: 100%;
+  max-width: 535px;
+  margin: 0 auto;
 }
 
 /* 2. main content */
@@ -51,7 +57,7 @@ main {
 }
 
 .container {
-  max-width: 580px;
+  max-width: 535px;
   text-align: center;
   margin: 36px;
   flex-wrap: wrap;
@@ -87,9 +93,13 @@ img {
 /* 3. media queries */
 
 @media (max-width: 400px) {
+  body {
+    min-width: 280px;
+  }
+
   header {
     flex-direction: column;
-    height: auto;
+    height: 100%;
     padding: 15px;
   }
 
@@ -99,9 +109,5 @@ img {
   }
 }
 
-@media (min-width: 570px) {
-  header {
-    justify-content: center;
-    gap: 205px;
-  }
-}
+/* @media (min-width: 570px) {
+} */
