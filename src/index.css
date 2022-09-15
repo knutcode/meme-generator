@@ -91,7 +91,7 @@ img {
 
 /* 3. media queries */
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   body {
     min-width: 280px;
   }
