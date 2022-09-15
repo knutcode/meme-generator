@@ -102,6 +102,10 @@ img {
     padding: 15px;
   }
 
+  input {
+    text-align: center;
+  }
+
   header > h1,
   header > p {
     margin: 0;
